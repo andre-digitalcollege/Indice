@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    background: rgb(179, 224, 211);
+}
+.botao {
+    width: 150px;
+    color: white;
+    font-size: 19px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    position: absolute;
+    margin: 100px;
+    top: 29px;
+    background: radial-gradient(rgb(129, 110, 110), rgb(39, 38, 38));
+    align-content: space-between;
+    cursor: pointer;
+}
+.botao:hover {
+    -webkit-transform-origin-x: -20px;
+    -webkit-transform-origin-y: -30px;
+    color: rgb(236, 221, 221);
+}
+.botao:active {
+    color:rgb(109, 45, 45)
+}
+.result {
+    width: 150px;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    font-size: 21px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    position: absolute;
+    margin: 100px;
+    top: 140px;
+    background: radial-gradient(rgb(129, 110, 110), rgb(39, 38, 38));
+    align-content: center;
+    cursor: progress;
+}
+.result:hover {
+    color: rgb(236, 218, 218);
+    background: radial-gradient(rgb(177, 133, 133), rgb(39, 38, 38))
+}
