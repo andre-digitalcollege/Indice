@@ -2,22 +2,27 @@
     margin: 0;
     padding: 0;
     border: border-box;
-    background: rgb(179, 224, 211);
+    background: rgb(179, 189, 224);
 }
 .botao {
-    width: 150px;
-    color: white;
-    font-size: 19px;
-    border: none;
-    border-radius: 5px;
-    display: flex;
-    position: absolute;
-    margin: 100px;
-    top: 29px;
-    background: radial-gradient(rgb(129, 110, 110), rgb(39, 38, 38));
-    align-content: space-between;
-    cursor: pointer;
+    background: rgb(90, 74, 74);
+  color: white;
+  padding: 1rem;
+  cursor: pointer;
+  border: none;
+  font-size: 17px;
 }
+.module-border-wrap {
+    width: 90px;
+    margin: 100px;
+    max-width: 250px;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(to right, rgb(110, 255, 243), rgb(35, 140, 238));
+    padding: 5px;
+    border-radius: 5px;
+  }
+
 .botao:hover {
     -webkit-transform-origin-x: -20px;
     -webkit-transform-origin-y: -30px;
@@ -27,8 +32,11 @@
     color:rgb(109, 45, 45)
 }
 .result {
+    top: 240px;
+    left: 60px;
+    padding-left: 34px;
     width: 150px;
-    text-align: center;
+    place-items: center;
     text-transform: capitalize;
     color: white;
     font-size: 21px;
@@ -36,10 +44,9 @@
     border-radius: 5px;
     display: flex;
     position: absolute;
-    margin: 100px;
-    top: 140px;
-    background: radial-gradient(rgb(129, 110, 110), rgb(39, 38, 38));
-    align-content: center;
+    background: linear-gradient(rgb(156, 135, 135), rgb(56, 52, 52));
+    text-align: center;
+    text-transform: uppercase;
     cursor: progress;
 }
 .result:hover {
